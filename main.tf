@@ -1,4 +1,6 @@
 
-resource "" "name" {
-  
+resource "aws_instance" "name" {
+
 }
+  
+
