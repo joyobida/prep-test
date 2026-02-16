@@ -16,9 +16,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   test: 
-   runs-on: ubuntu-latest
-   steps:
-      
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
      - name: Check Uptime
        run: uptime
      - name: CPU info
