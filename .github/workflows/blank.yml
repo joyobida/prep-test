@@ -23,6 +23,11 @@ jobs:
        run: uptime
      - name: CPU info
        run: nproc
+     -  name: kernel info
+        run: uname -r
+
+        
+       
      
 
      
